@@ -39,7 +39,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <properties>
+  
      <repository.server.root>http://localhost:8081/repository</repository.server.root>
      <releases.distribution.url>
         ${repository.server.root}/test-releases/
