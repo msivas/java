@@ -39,6 +39,16 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <properties>
+     <repository.server.root>http://localhost:8081/repository</repository.server.root>
+     <releases.distribution.url>
+        ${repository.server.root}/test-releases/
+     </releases.distribution.url>
+     <snapshots.distribution.url>
+        ${repository.server.root}/test-snapshots/
+     </snapshots.distribution.url>
+
+  </properties>
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
